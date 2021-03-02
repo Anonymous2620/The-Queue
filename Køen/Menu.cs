@@ -19,11 +19,11 @@ namespace Køen
             
             Console.WriteLine("3. Show the number of guests");
             
-            Console.WriteLine("5. Find a guest");
+            Console.WriteLine("4. Find a guest");
             
-            Console.WriteLine("6. Find all the guests");
+            Console.WriteLine("5. Find all the guests");
             
-            Console.WriteLine("7. Exit the menu");
+            Console.WriteLine("6. Exit the menu");
         }
 
         public void MainMenu()
