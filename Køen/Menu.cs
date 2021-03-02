@@ -10,7 +10,7 @@ namespace Køen
     {
         Guest guest = new Guest();
         MenuOptions options = new MenuOptions();
-        //Here is my menu which is printet out to he console.
+        //Here is my menu which is printet out to the console.
         public void MenuOptions()
         {
             Console.WriteLine("1. Add a guest");
@@ -36,7 +36,7 @@ namespace Køen
                 
                 switch (userInput)
                 {
-                    
+                    //Here i add a new user.
                     case 1:
 
                         Console.WriteLine("Insert the name of your guest");
@@ -50,18 +50,21 @@ namespace Køen
                         Console.ReadKey();
                         break;
                     
+                    //Here i delete guests.
                     case 2:
 
                         options.DeleteGuests();
                         Console.ReadKey();
                         break;
-                    
+
+                    //Here i wil display the number of guests.
                     case 3:
                     
                         options.NumberOfGuests();
                         Console.ReadKey();
                         break;
                     
+                    //Here i find guests by their name.
                     case 4:
                                                 
                         Console.Write("Guest name: ");
@@ -71,12 +74,14 @@ namespace Køen
                         Console.ReadKey();
                         break;
                    
+                    //Here i print out all the names and ages of guests.
                     case 5:
 
                         options.PrintAmountofGuests();
                         Console.ReadKey();
                         break;
                    
+                    //Here is the way you exit.
                     case 6:
                         
                         Environment.Exit(1);
